@@ -79,18 +79,18 @@ const Login = () => {
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <div>
                     <span className="text-blue-300">Email:</span>
-                    <span className="text-dark-300 ml-1">test@example.com</span>
+                    <span className="text-dark-300 ml-1">test1@example.com</span>
                   </div>
                   <div>
                     <span className="text-blue-300">Password:</span>
-                    <span className="text-dark-300 ml-1">mypassword123</span>
+                    <span className="text-dark-300 ml-1">123456</span>
                   </div>
                 </div>
                 <button
                   type="button"
                   onClick={() => {
-                    setEmail('test@example.com');
-                    setPassword('mypassword123');
+                    setEmail('test1@example.com');
+                    setPassword('123456');
                   }}
                   className="mt-3 text-xs text-blue-400 hover:text-blue-300 transition-colors underline"
                 >
